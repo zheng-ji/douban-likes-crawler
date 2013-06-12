@@ -4,7 +4,7 @@ from crawler import Crawler
 
 if __name__ == "__main__":
     #用户名
-    usrnames = ["cloudwu","fenng"]
+    usrnames = ["laiyonghao","fenng"]
     for name in usrnames:
         cwl = Crawler(name)
         cwl.start()
