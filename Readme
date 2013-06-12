@@ -1,0 +1,10 @@
+Usage:
+    python main.py
+
+    在main.py的usernames列表添加用户名字就可以下载豆瓣上他或她喜欢的文章
+
+================================
+
+dependency:
+    BeautifulSoup
+    urllib
