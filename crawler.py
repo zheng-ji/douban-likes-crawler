@@ -3,7 +3,7 @@ import urllib
 import os
 import re
 from BeautifulSoup import BeautifulSoup
-from parse import Parser
+from parser import Parser
 
 #爬虫类
 class Crawler():
