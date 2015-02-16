@@ -14,6 +14,7 @@ def get_like_urls(user_name):
 
 
 def get_notes(user_name, note_urls):
+
     for url in note_urls:
         if url.find("note") == -1:
             continue
@@ -49,7 +50,6 @@ def get_notes(user_name, note_urls):
 
 
 if __name__ == "__main__":
-    # usrnames = ["ruitao", "loviselu", "laiyonghao", "fenng"]
     usr_names = ["litten"]
     for name in usr_names:
         like_urls = get_like_urls(name)
